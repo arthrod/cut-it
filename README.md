@@ -221,4 +221,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Made with ❤️ by [Arthur Souza Rodrigues](mailto:arthrod@umich.edu)
+Made with ❤️ by [The Neurotic Coder](https://github.com/arthrod) and assisted by beloved Claude
