@@ -17,13 +17,36 @@ A semantic text chunking tool that converts documents into organized task lists 
 
 ## Installation
 
+### Recommended: Install with uv (Best Experience)
 ```bash
+# Install cut-it and keep it available globally
+uv pip install cut-it
+
+# Then use anywhere:
+cut-it document.txt
+```
+
+### Quick Trial: Run without Installing
+```bash
+# Try cut-it instantly without installation
+uvx cut-it document.txt
+uvx cut-it --help
+```
+
+### Traditional Installation
+```bash
+# Standard pip installation
 pip install cut-it
 ```
+
+**Why uv?** Cut-it works great with [uv](https://docs.astral.sh/uv/) for faster installs, better dependency management, and seamless Python environment handling. We highly recommend installing cut-it as a persistent tool for regular use!
 
 ## Quick Start
 
 ```bash
+# Install once and use anywhere
+uv pip install cut-it
+
 # Process a text file
 cut-it document.txt
 
@@ -35,6 +58,9 @@ cut-it large-document.txt --size 200,800
 
 # Force file type
 cut-it code.py --type code
+
+# Or try instantly without installing
+uvx cut-it document.txt
 ```
 
 ## Output Format
